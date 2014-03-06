@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Auth", "Xamarin.Auth\Xamarin.Auth.csproj", "{9DDCEC93-5095-4AC1-9653-F47F4BB1D749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Auth.Droid", "Xamarin.Auth.Droid\Xamarin.Auth.Droid.csproj", "{C3786919-F57B-4A37-8A93-5236E44CBC7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Auth.Droid.Tests", "Xamarin.Auth.Droid.Tests\Xamarin.Auth.Droid.Tests.csproj", "{B7311668-EFA5-48CC-A162-6E6BF34D8806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Auth.Droid(Jar exported)", "Xamarin.Auth.Droid(Jar exported)\Xamarin.Auth.Droid(Jar exported).csproj", "{969C9124-81AC-4CAD-88E1-E216EFD09098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Auth.Droid.Tests(jar tests)", "Xamarin.Auth.Droid.Tests(jar tests)\Xamarin.Auth.Droid.Tests(jar tests).csproj", "{E612DA1F-F922-47D9-A214-113054BAD983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Auth.Droid.Tests(unmodified)", "Xamarin.Auth.Droid.Tests(unmodified)\Xamarin.Auth.Droid.Tests(unmodified).csproj", "{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugVS10|Any CPU = DebugVS10|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DDCEC93-5095-4AC1-9653-F47F4BB1D749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDCEC93-5095-4AC1-9653-F47F4BB1D749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDCEC93-5095-4AC1-9653-F47F4BB1D749}.DebugVS10|Any CPU.ActiveCfg = DebugVS10|Any CPU
+		{9DDCEC93-5095-4AC1-9653-F47F4BB1D749}.DebugVS10|Any CPU.Build.0 = DebugVS10|Any CPU
+		{9DDCEC93-5095-4AC1-9653-F47F4BB1D749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDCEC93-5095-4AC1-9653-F47F4BB1D749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3786919-F57B-4A37-8A93-5236E44CBC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3786919-F57B-4A37-8A93-5236E44CBC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3786919-F57B-4A37-8A93-5236E44CBC7D}.DebugVS10|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3786919-F57B-4A37-8A93-5236E44CBC7D}.DebugVS10|Any CPU.Build.0 = Debug|Any CPU
+		{C3786919-F57B-4A37-8A93-5236E44CBC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3786919-F57B-4A37-8A93-5236E44CBC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7311668-EFA5-48CC-A162-6E6BF34D8806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7311668-EFA5-48CC-A162-6E6BF34D8806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7311668-EFA5-48CC-A162-6E6BF34D8806}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B7311668-EFA5-48CC-A162-6E6BF34D8806}.DebugVS10|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7311668-EFA5-48CC-A162-6E6BF34D8806}.DebugVS10|Any CPU.Build.0 = Debug|Any CPU
+		{B7311668-EFA5-48CC-A162-6E6BF34D8806}.DebugVS10|Any CPU.Deploy.0 = Debug|Any CPU
+		{B7311668-EFA5-48CC-A162-6E6BF34D8806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7311668-EFA5-48CC-A162-6E6BF34D8806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7311668-EFA5-48CC-A162-6E6BF34D8806}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{969C9124-81AC-4CAD-88E1-E216EFD09098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969C9124-81AC-4CAD-88E1-E216EFD09098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969C9124-81AC-4CAD-88E1-E216EFD09098}.DebugVS10|Any CPU.ActiveCfg = Debug|Any CPU
+		{969C9124-81AC-4CAD-88E1-E216EFD09098}.DebugVS10|Any CPU.Build.0 = Debug|Any CPU
+		{969C9124-81AC-4CAD-88E1-E216EFD09098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969C9124-81AC-4CAD-88E1-E216EFD09098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E612DA1F-F922-47D9-A214-113054BAD983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E612DA1F-F922-47D9-A214-113054BAD983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E612DA1F-F922-47D9-A214-113054BAD983}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E612DA1F-F922-47D9-A214-113054BAD983}.DebugVS10|Any CPU.ActiveCfg = Debug|Any CPU
+		{E612DA1F-F922-47D9-A214-113054BAD983}.DebugVS10|Any CPU.Build.0 = Debug|Any CPU
+		{E612DA1F-F922-47D9-A214-113054BAD983}.DebugVS10|Any CPU.Deploy.0 = Debug|Any CPU
+		{E612DA1F-F922-47D9-A214-113054BAD983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E612DA1F-F922-47D9-A214-113054BAD983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E612DA1F-F922-47D9-A214-113054BAD983}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}.DebugVS10|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}.DebugVS10|Any CPU.Build.0 = Debug|Any CPU
+		{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}.DebugVS10|Any CPU.Deploy.0 = Debug|Any CPU
+		{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECC4329-94D4-49E3-851D-D83A4EB30ADD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
